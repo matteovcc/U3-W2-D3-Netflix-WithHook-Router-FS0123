@@ -74,8 +74,8 @@ const FilmDetails = () => {
           <p>Regista: {movieDetails.Director}</p>
           <p>Scrittrice: {movieDetails.Writer}</p>
           <p className="text-center">
-            Trama: <p className="fst-italic">{movieDetails.Plot}</p>
-          </p>
+            Trama:</p> <p className="fst-italic">{movieDetails.Plot}</p>
+          
           {movieComments.map((comment) => (
             <div className="text-white" key={comment._id}>
               <p>{comment.comment}</p>
